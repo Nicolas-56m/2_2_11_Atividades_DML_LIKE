@@ -4,28 +4,34 @@
 ```SQL
 USE vendas_informatica;
 
-SELECT * FROM produto WHERE nome_produto LIKE "D%";
+SELECT * FROM produto
+WHERE nome_produto LIKE "D%";
 ```
 
 ## Instrução 2
 ```SQL
 USE vendas_informatica;
 
-SELECT nome_produto, marca, estoque FROM produto WHERE nome_produto LIKE "%E";
+SELECT nome_produto, marca, estoque
+FROM produto
+WHERE nome_produto LIKE "%E";
 ```
 
 ## Instrução 3
 ```SQL
 USE vendas_informatica;
 
-SELECT nome_produto, marca, estoque, preco_unitario FROM produto WHERE nome_produto LIKE "%Gamer%";
+SELECT nome_produto, marca, estoque, preco_unitario
+FROM produto
+WHERE nome_produto LIKE "%Gamer%";
 ```
 
 ## Instrução 4
 ```SQL
 USE vendas_informatica;
 
-SELECT * FROM cliente WHERE nome_cliente LIKE "%Barbosa%";
+SELECT * FROM cliente
+WHERE nome_cliente LIKE "%Barbosa%";
 ```
 
 ## Instrução 5
